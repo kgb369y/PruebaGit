@@ -28,10 +28,21 @@ public class Test {
     }
 
     @org.testng.annotations.Test(groups={"grupo1"})
-    public void mdPurchasePrintsCollapsedViewTest() throws Exception {
+    public void test1() throws Exception {
 	SoftAssert sA = new SoftAssert();
 	try {
 	    sA.assertTrue(true);
+	    sA.assertAll();
+	} catch (AssertionError e) {
+	    throw e;
+	}
+    }
+
+    @org.testng.annotations.Test(groups={"grupo1"})
+    public void test2() throws Exception {
+	SoftAssert sA = new SoftAssert();
+	try {
+	    sA.assertTrue(false);
 	    sA.assertAll();
 	} catch (AssertionError e) {
 	    throw e;
