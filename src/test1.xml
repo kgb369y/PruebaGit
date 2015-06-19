@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="suitTest" parallel="false" thread-count="2" verbose="2" allow-return-values="true" configfailurepolicy="continue">
+    <test name="test1" preserve-order="true">
+        <groups>
+            <run>
+                <include name="grupo1" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.foo" />
+        </classes>
+    </test>
+</suite>

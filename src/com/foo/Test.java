@@ -27,7 +27,7 @@ public class Test {
 	closeBrowser(browser);
     }
 
-    @org.testng.annotations.Test
+    @org.testng.annotations.Test(groups={"grupo1"})
     public void mdPurchasePrintsCollapsedViewTest() throws Exception {
 	SoftAssert sA = new SoftAssert();
 	try {
