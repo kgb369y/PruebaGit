@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18565" started-at="2015-06-19T22:29:53Z" finished-at="2015-06-19T22:30:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18565" started-at="2015-06-19T22:29:53Z" finished-at="2015-06-19T22:30:12Z">
+      <class name="com.foo.Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.foo.Test@1040f2f]" name="beforeTest" is-config="true" duration-ms="18497" started-at="2015-06-19T17:29:53Z" finished-at="2015-06-19T17:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="mdPurchasePrintsCollapsedViewTest()[pri:0, instance:com.foo.Test@1040f2f]" name="mdPurchasePrintsCollapsedViewTest" duration-ms="38" started-at="2015-06-19T17:30:11Z" finished-at="2015-06-19T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mdPurchasePrintsCollapsedViewTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.foo.Test@1040f2f]" name="afterTest" is-config="true" duration-ms="8" started-at="2015-06-19T17:30:12Z" finished-at="2015-06-19T17:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.foo.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
