@@ -48,6 +48,18 @@ public class Test {
 	    throw e;
 	}
     }
+	
+	@org.testng.annotations.Test(groups={"grupo1"})
+    public void test3() throws Exception {
+	SoftAssert sA = new SoftAssert();
+	try {
+	    sA.assertTrue(true);
+		sA.assertTrue(false);
+	    sA.assertAll();
+	} catch (AssertionError e) {
+	    throw e;
+	}
+    }
 
     public void runDrivers(String browser) throws IOException {
 	WebDriver driver;
