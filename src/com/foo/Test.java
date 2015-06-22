@@ -49,7 +49,7 @@ public class Test {
 	}
     }
 	
-	@org.testng.annotations.Test(groups={"grupo1"})
+	@org.testng.annotations.Test(groups={"grupo2"})
     public void test3() throws Exception {
 	SoftAssert sA = new SoftAssert();
 	try {
